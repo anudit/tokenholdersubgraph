@@ -1,0 +1,23 @@
+type Holder @entity {
+  id: ID! # User Address
+  balances: [TokenBalance!] @derivedFrom(field: "holderPointed")
+}
+
+type TokenBalance @entity {
+  id: ID! # User Address + "-" + Token Contract Address + "-" + networkName
+  holderPointed: Holder!
+  balance: BigInt!
+  over1since: BigInt
+  over10since: BigInt
+  over100since: BigInt
+  over1000since: BigInt
+  over10000since: BigInt
+}
+
+type Token @entity {
+  id: ID! # Token Contract Address + "-" + networkName
+  name: String!
+  symbol: String!
+  totalSupply: BigInt!
+  decimals: BigInt!
+}
