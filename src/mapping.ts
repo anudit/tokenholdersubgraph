@@ -13,7 +13,7 @@ function compare(amount: BigInt, base: BigInt, decimals: u8): boolean {
 
 function updateTokenData(address: Address): void {
 
-  let id = address.toHexString().concat('-').concat(dataSource.network());
+  let id = address.toHexString();
   let entity = Token.load(id);
 
   if (!entity){
@@ -30,7 +30,7 @@ function updateTokenData(address: Address): void {
 
 function updateHolderBalance(tokenAddress: Address, holderAddress: Address, amount: BigInt, increase: bool, now: BigInt): void {
 
-  let id = holderAddress.toHexString().concat('-').concat(tokenAddress.toHexString()).concat('-').concat(dataSource.network());
+  let id = holderAddress.toHexString().concat('-').concat(tokenAddress.toHexString());
   let entity = TokenBalance.load(id);
   let tokenContract = ERC20Token.bind(tokenAddress);
   const decimals = tokenContract.decimals() as u8;
@@ -38,6 +38,7 @@ function updateHolderBalance(tokenAddress: Address, holderAddress: Address, amou
   if (!entity) {
     entity = new TokenBalance(id);
     entity.holderPointed = holderAddress.toHexString();
+    entity.tokenPointed = tokenAddress.toHexString();
     entity.balance = BigInt.fromI64(0);
     entity.over1since = BigInt.fromI64(0);
     entity.over10since = BigInt.fromI64(0);

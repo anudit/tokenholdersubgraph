@@ -4,8 +4,9 @@ type Holder @entity {
 }
 
 type TokenBalance @entity {
-  id: ID! # User Address + "-" + Token Contract Address + "-" + networkName
+  id: ID! # User Address + "-" + Token Contract Address
   holderPointed: Holder!
+  tokenPointed: Token!
   balance: BigInt!
   over1since: BigInt!
   over10since: BigInt!
@@ -15,7 +16,7 @@ type TokenBalance @entity {
 }
 
 type Token @entity {
-  id: ID! # Token Contract Address + "-" + networkName
+  id: ID! # Token Contract Address
   name: String!
   symbol: String!
   totalSupply: BigInt!

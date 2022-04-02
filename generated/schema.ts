@@ -66,6 +66,7 @@ export class TokenBalance extends Entity {
     this.set("id", Value.fromString(id));
 
     this.set("holderPointed", Value.fromString(""));
+    this.set("tokenPointed", Value.fromString(""));
     this.set("balance", Value.fromBigInt(BigInt.zero()));
     this.set("over1since", Value.fromBigInt(BigInt.zero()));
     this.set("over10since", Value.fromBigInt(BigInt.zero()));
@@ -106,6 +107,15 @@ export class TokenBalance extends Entity {
 
   set holderPointed(value: string) {
     this.set("holderPointed", Value.fromString(value));
+  }
+
+  get tokenPointed(): string {
+    let value = this.get("tokenPointed");
+    return value!.toString();
+  }
+
+  set tokenPointed(value: string) {
+    this.set("tokenPointed", Value.fromString(value));
   }
 
   get balance(): BigInt {
