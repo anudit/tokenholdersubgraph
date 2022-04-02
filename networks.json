@@ -2,6 +2,9 @@
   "mainnet": {
     "ERC20Token": {
       "address": "0x90275c752ff8e020cdeec4dec43318cf569fd445"
+    },
+    "GIAN": {
+      "address": "0xC48752b8e1DC43F9d70504099b5C17c4380Ac605"
     }
   }
 }

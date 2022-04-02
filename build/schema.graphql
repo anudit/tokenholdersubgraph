@@ -7,11 +7,11 @@ type TokenBalance @entity {
   id: ID! # User Address + "-" + Token Contract Address + "-" + networkName
   holderPointed: Holder!
   balance: BigInt!
-  over1since: BigInt
-  over10since: BigInt
-  over100since: BigInt
-  over1000since: BigInt
-  over10000since: BigInt
+  over1since: BigInt!
+  over10since: BigInt!
+  over100since: BigInt!
+  over1000since: BigInt!
+  over10000since: BigInt!
 }
 
 type Token @entity {

@@ -67,6 +67,11 @@ export class TokenBalance extends Entity {
 
     this.set("holderPointed", Value.fromString(""));
     this.set("balance", Value.fromBigInt(BigInt.zero()));
+    this.set("over1since", Value.fromBigInt(BigInt.zero()));
+    this.set("over10since", Value.fromBigInt(BigInt.zero()));
+    this.set("over100since", Value.fromBigInt(BigInt.zero()));
+    this.set("over1000since", Value.fromBigInt(BigInt.zero()));
+    this.set("over10000since", Value.fromBigInt(BigInt.zero()));
   }
 
   save(): void {
@@ -112,89 +117,49 @@ export class TokenBalance extends Entity {
     this.set("balance", Value.fromBigInt(value));
   }
 
-  get over1since(): BigInt | null {
+  get over1since(): BigInt {
     let value = this.get("over1since");
-    if (!value || value.kind == ValueKind.NULL) {
-      return null;
-    } else {
-      return value.toBigInt();
-    }
+    return value!.toBigInt();
   }
 
-  set over1since(value: BigInt | null) {
-    if (!value) {
-      this.unset("over1since");
-    } else {
-      this.set("over1since", Value.fromBigInt(<BigInt>value));
-    }
+  set over1since(value: BigInt) {
+    this.set("over1since", Value.fromBigInt(value));
   }
 
-  get over10since(): BigInt | null {
+  get over10since(): BigInt {
     let value = this.get("over10since");
-    if (!value || value.kind == ValueKind.NULL) {
-      return null;
-    } else {
-      return value.toBigInt();
-    }
+    return value!.toBigInt();
   }
 
-  set over10since(value: BigInt | null) {
-    if (!value) {
-      this.unset("over10since");
-    } else {
-      this.set("over10since", Value.fromBigInt(<BigInt>value));
-    }
+  set over10since(value: BigInt) {
+    this.set("over10since", Value.fromBigInt(value));
   }
 
-  get over100since(): BigInt | null {
+  get over100since(): BigInt {
     let value = this.get("over100since");
-    if (!value || value.kind == ValueKind.NULL) {
-      return null;
-    } else {
-      return value.toBigInt();
-    }
+    return value!.toBigInt();
   }
 
-  set over100since(value: BigInt | null) {
-    if (!value) {
-      this.unset("over100since");
-    } else {
-      this.set("over100since", Value.fromBigInt(<BigInt>value));
-    }
+  set over100since(value: BigInt) {
+    this.set("over100since", Value.fromBigInt(value));
   }
 
-  get over1000since(): BigInt | null {
+  get over1000since(): BigInt {
     let value = this.get("over1000since");
-    if (!value || value.kind == ValueKind.NULL) {
-      return null;
-    } else {
-      return value.toBigInt();
-    }
+    return value!.toBigInt();
   }
 
-  set over1000since(value: BigInt | null) {
-    if (!value) {
-      this.unset("over1000since");
-    } else {
-      this.set("over1000since", Value.fromBigInt(<BigInt>value));
-    }
+  set over1000since(value: BigInt) {
+    this.set("over1000since", Value.fromBigInt(value));
   }
 
-  get over10000since(): BigInt | null {
+  get over10000since(): BigInt {
     let value = this.get("over10000since");
-    if (!value || value.kind == ValueKind.NULL) {
-      return null;
-    } else {
-      return value.toBigInt();
-    }
+    return value!.toBigInt();
   }
 
-  set over10000since(value: BigInt | null) {
-    if (!value) {
-      this.unset("over10000since");
-    } else {
-      this.set("over10000since", Value.fromBigInt(<BigInt>value));
-    }
+  set over10000since(value: BigInt) {
+    this.set("over10000since", Value.fromBigInt(value));
   }
 }
 

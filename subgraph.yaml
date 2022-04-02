@@ -23,3 +23,25 @@ dataSources:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
       file: ./src/mapping.ts
+  - kind: ethereum
+    name: GIAN
+    network: mainnet
+    source:
+      address: "0xC48752b8e1DC43F9d70504099b5C17c4380Ac605"
+      abi: ERC20Token
+      startBlock: 13251154
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.5
+      language: wasm/assemblyscript
+      entities:
+        - Holder
+        - TokenBalance
+      abis:
+        - name: ERC20Token
+          file: ./abis/ERC20Token.json
+      eventHandlers:
+        - event: Transfer(indexed address,indexed address,uint256)
+          handler: handleTransfer
+      file: ./src/mapping.ts
+
