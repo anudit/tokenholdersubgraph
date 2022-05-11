@@ -1,0 +1,48 @@
+let mainnetAdds = data.filter((e)=>{return e.network_chain_id == '1'})
+
+U1XY38A3E61KRFG2DEM8JQJ1XPCNFRZ79R
+
+async function getOriginBlock(contractAddress){
+	let url = `https://api.etherscan.io/api?module=account&action=txlist&address=${contractAddress}&startblock=0&endblock=latest&page=0&offset=0&sort=asc&apikey=U1XY38A3E61KRFG2DEM8JQJ1XPCNFRZ79R`;
+	let data = await fetch(url);
+	let json = await data.json();
+    console.log(json);
+	if (json.result.length === 0){
+		return 0;
+	}
+	else {
+		return json.result[0].blockNumber;
+	}
+}
+
+for (var i =0; i<=mainnetAdds.length; i+=1 ){
+	let bn = await getOriginBlock(mainnetAdds[i].address);
+	console.log(i, mainnetAdds.length, bn);
+	mainnetAdds[i].blockNumber = bn;
+}
+
+console.log(finData.map(e=>{
+    return `
+  - kind: ethereum
+    name: ${e.name}-${e.symbol}
+    network: mainnet
+    source:
+      address: "${e.address}"
+      abi: ERC20Token
+      startBlock: ${e.blockNumber}
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.5
+      language: wasm/assemblyscript
+      entities:
+        - Holder
+        - TokenBalance
+      abis:
+        - name: ERC20Token
+          file: ./abis/ERC20Token.json
+      eventHandlers:
+        - event: Transfer(indexed address,indexed address,uint256)
+          handler: handleTransfer
+      file: ./src/mapping.ts
+    `
+}).join('\n'))
