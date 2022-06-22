@@ -1,73 +1,62 @@
 # tokenholdersubgraph
 A subgraph to index insights into token holders - Mainnet.
 
-Build completed: QmW3UXcuYBvBHdgwxCrXFzzspMmHwBuHUo84DAAX8q69ty
+Build completed: Qmdps3cCdAhBaqkktZ1Tb9RJ1BorVEqhw6e2R463ZCeNxA
 
-Deployed to https://thegraph.com/explorer/subgraph/anudit/tokenholders
+Deployed to https://thegraph.com/studio/subgraph/tokenholders
 
 Subgraph endpoints:
-Queries (HTTP):     https://api.thegraph.com/subgraphs/name/anudit/tokenholders
-Subscriptions (WS): wss://api.thegraph.com/subgraphs/name/anudit/tokenholders
-
+Queries (HTTP):     https://api.studio.thegraph.com/query/1649/tokenholders/v1
 
 ### Examples
 
+Get a User's Balances
 ```gql
 {
-  tokens(first:1000){
-    totalSupply
-    id
-    symbol
-    decimals
-    name
-  }
-  tokenBalances(first:1000){
-    id
-    holderPointed {
-      id
-    }
-    balance
-    over1since
-    over10since
-    over100since
-    over1000since
-    over10000since
-  }
-  holders(first:1000){
+  users(where: {id: "0xd3e9d60e4e4de615124d5239219f32946d10151d"}) {
     id
     balances {
-      id
       balance
+      holdingAtleast1Since
+      holdingAtleast10000Since
+    	tokenPointed{
+        name
+        decimals
+      }
     }
   }
 }
-
 ```
 
-
+Get All Token Holders
 ```gql
 {
-  tokens(first:1000){
-    totalSupply
-    id
-    symbol
-    decimals
-    name
-  }
-  tokenBalances(first:10, where: {balance_gt:"10000000000000000000"}){
-    id
-    holderPointed {
+  tokenBalances (where: {tokenPointed: "0x90275c752ff8e020cdeec4dec43318cf569fd445"}, orderBy: balance, orderDirection: desc, first: 1000) {
+    userPointed{
       id
     }
-    tokenPointed {
-      name
-    }
     balance
-    over1since
-    over10since
-    over100since
-    over1000since
-    over10000since
+      holdingAtleast1Since
+      holdingAtleast10000Since
+    	tokenPointed{
+        name
+        decimals
+      }
+    }
+}
+```
+
+Get All Tokens
+```gql
+{
+  tokens {
+    id
+    name
+    symbol
+    totalSupply
+    decimals
+    birth
+    transfers
   }
 }
 ```

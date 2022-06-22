@@ -5,13 +5,13 @@
     "codegen": "graph codegen",
     "build": "graph build",
     "auth": "graph auth",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ anudit/tokenholders",
+    "deploy": "graph deploy --studio tokenholders",
     "create-local": "graph create --node http://localhost:8020/ anudit/tokenholders",
     "remove-local": "graph remove --node http://localhost:8020/ anudit/tokenholders",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 anudit/tokenholders"
   },
   "dependencies": {
-    "@graphprotocol/graph-cli": "^0.29.0",
-    "@graphprotocol/graph-ts": "0.26.0"
+    "@graphprotocol/graph-cli": "^0.31.0",
+    "@graphprotocol/graph-ts": "0.27.0"
   }
 }

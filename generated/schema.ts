@@ -11,7 +11,7 @@ import {
   BigDecimal
 } from "@graphprotocol/graph-ts";
 
-export class Holder extends Entity {
+export class User extends Entity {
   constructor(id: string) {
     super();
     this.set("id", Value.fromString(id));
@@ -19,18 +19,18 @@ export class Holder extends Entity {
 
   save(): void {
     let id = this.get("id");
-    assert(id != null, "Cannot save Holder entity without an ID");
+    assert(id != null, "Cannot save User entity without an ID");
     if (id) {
       assert(
         id.kind == ValueKind.STRING,
-        `Entities of type Holder must have an ID of type String but the id '${id.displayData()}' is of type ${id.displayKind()}`
+        `Entities of type User must have an ID of type String but the id '${id.displayData()}' is of type ${id.displayKind()}`
       );
-      store.set("Holder", id.toString(), this);
+      store.set("User", id.toString(), this);
     }
   }
 
-  static load(id: string): Holder | null {
-    return changetype<Holder | null>(store.get("Holder", id));
+  static load(id: string): User | null {
+    return changetype<User | null>(store.get("User", id));
   }
 
   get id(): string {
@@ -64,15 +64,6 @@ export class TokenBalance extends Entity {
   constructor(id: string) {
     super();
     this.set("id", Value.fromString(id));
-
-    this.set("holderPointed", Value.fromString(""));
-    this.set("tokenPointed", Value.fromString(""));
-    this.set("balance", Value.fromBigInt(BigInt.zero()));
-    this.set("over1since", Value.fromBigInt(BigInt.zero()));
-    this.set("over10since", Value.fromBigInt(BigInt.zero()));
-    this.set("over100since", Value.fromBigInt(BigInt.zero()));
-    this.set("over1000since", Value.fromBigInt(BigInt.zero()));
-    this.set("over10000since", Value.fromBigInt(BigInt.zero()));
   }
 
   save(): void {
@@ -100,13 +91,13 @@ export class TokenBalance extends Entity {
     this.set("id", Value.fromString(value));
   }
 
-  get holderPointed(): string {
-    let value = this.get("holderPointed");
+  get userPointed(): string {
+    let value = this.get("userPointed");
     return value!.toString();
   }
 
-  set holderPointed(value: string) {
-    this.set("holderPointed", Value.fromString(value));
+  set userPointed(value: string) {
+    this.set("userPointed", Value.fromString(value));
   }
 
   get tokenPointed(): string {
@@ -127,49 +118,49 @@ export class TokenBalance extends Entity {
     this.set("balance", Value.fromBigInt(value));
   }
 
-  get over1since(): BigInt {
-    let value = this.get("over1since");
+  get holdingAtleast1Since(): BigInt {
+    let value = this.get("holdingAtleast1Since");
     return value!.toBigInt();
   }
 
-  set over1since(value: BigInt) {
-    this.set("over1since", Value.fromBigInt(value));
+  set holdingAtleast1Since(value: BigInt) {
+    this.set("holdingAtleast1Since", Value.fromBigInt(value));
   }
 
-  get over10since(): BigInt {
-    let value = this.get("over10since");
+  get holdingAtleast10Since(): BigInt {
+    let value = this.get("holdingAtleast10Since");
     return value!.toBigInt();
   }
 
-  set over10since(value: BigInt) {
-    this.set("over10since", Value.fromBigInt(value));
+  set holdingAtleast10Since(value: BigInt) {
+    this.set("holdingAtleast10Since", Value.fromBigInt(value));
   }
 
-  get over100since(): BigInt {
-    let value = this.get("over100since");
+  get holdingAtleast100Since(): BigInt {
+    let value = this.get("holdingAtleast100Since");
     return value!.toBigInt();
   }
 
-  set over100since(value: BigInt) {
-    this.set("over100since", Value.fromBigInt(value));
+  set holdingAtleast100Since(value: BigInt) {
+    this.set("holdingAtleast100Since", Value.fromBigInt(value));
   }
 
-  get over1000since(): BigInt {
-    let value = this.get("over1000since");
+  get holdingAtleast1000Since(): BigInt {
+    let value = this.get("holdingAtleast1000Since");
     return value!.toBigInt();
   }
 
-  set over1000since(value: BigInt) {
-    this.set("over1000since", Value.fromBigInt(value));
+  set holdingAtleast1000Since(value: BigInt) {
+    this.set("holdingAtleast1000Since", Value.fromBigInt(value));
   }
 
-  get over10000since(): BigInt {
-    let value = this.get("over10000since");
+  get holdingAtleast10000Since(): BigInt {
+    let value = this.get("holdingAtleast10000Since");
     return value!.toBigInt();
   }
 
-  set over10000since(value: BigInt) {
-    this.set("over10000since", Value.fromBigInt(value));
+  set holdingAtleast10000Since(value: BigInt) {
+    this.set("holdingAtleast10000Since", Value.fromBigInt(value));
   }
 }
 
@@ -177,11 +168,6 @@ export class Token extends Entity {
   constructor(id: string) {
     super();
     this.set("id", Value.fromString(id));
-
-    this.set("name", Value.fromString(""));
-    this.set("symbol", Value.fromString(""));
-    this.set("totalSupply", Value.fromBigInt(BigInt.zero()));
-    this.set("decimals", Value.fromBigInt(BigInt.zero()));
   }
 
   save(): void {
@@ -207,6 +193,24 @@ export class Token extends Entity {
 
   set id(value: string) {
     this.set("id", Value.fromString(value));
+  }
+
+  get birth(): BigInt {
+    let value = this.get("birth");
+    return value!.toBigInt();
+  }
+
+  set birth(value: BigInt) {
+    this.set("birth", Value.fromBigInt(value));
+  }
+
+  get transfers(): BigInt {
+    let value = this.get("transfers");
+    return value!.toBigInt();
+  }
+
+  set transfers(value: BigInt) {
+    this.set("transfers", Value.fromBigInt(value));
   }
 
   get name(): string {
