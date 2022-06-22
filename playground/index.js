@@ -13,7 +13,7 @@ async function getTokens() {
     referrerPolicy: 'no-referrer',
     body: JSON.stringify({
       query: `{
-        tokens {
+        tokens (orderBy: birth, orderDirection: asc) {
           id
           name
           symbol
