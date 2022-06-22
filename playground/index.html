@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+    <h1>Token Community Strength</h1>
+    <p>Strength = avgAcrossAllHolders(sqrt(currentBalance>0)*daysHeld)</p>
+
+    <br/><br/>
+
+    <label for="token">Pick a Token:</label>
+
+    <select name="token" id="tokenInput">
+        <option value="0x8ba6dcc667d3ff64c1a2123ce72ff5f0199e5315">$ALEX</option>
+        <option value="0x90275c752ff8E020cDEEC4Dec43318cF569FD445">$JENIL</option>
+    </select>
+
+    <button onclick="fetchData()">Fetch Data</button>
+    <br/><br/>
+    <div>
+        Output: <br/>
+        <pre id="output"></pre>
+    </div>
+
+
+  <script src="index.js"></script>
+</body>
+
+</html>

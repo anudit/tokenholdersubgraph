@@ -36,13 +36,13 @@ Get All Token Holders
       id
     }
     balance
-      holdingAtleast1Since
-      holdingAtleast10000Since
-    	tokenPointed{
-        name
-        decimals
-      }
+    holdingAtleast1Since
+    holdingAtleast10000Since
+    tokenPointed{
+      name
+      decimals
     }
+  }
 }
 ```
 
