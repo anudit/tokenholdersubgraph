@@ -5,7 +5,7 @@
     "codegen": "graph codegen",
     "build": "graph build",
     "auth": "graph auth",
-    "play": "live-server . --port=80",
+    "play": "live-server ./playground/ --port=80",
     "deploy": "graph deploy --studio tokenholders",
     "create-local": "graph create --node http://localhost:8020/ anudit/tokenholders",
     "remove-local": "graph remove --node http://localhost:8020/ anudit/tokenholders",

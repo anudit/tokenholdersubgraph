@@ -1,5 +1,36 @@
+const GRAPH_ENDPOINT = 'https://api.studio.thegraph.com/query/1649/tokenholders/v1.4';
+
+async function getTokens() {
+  const response = await fetch(GRAPH_ENDPOINT, {
+    method: 'POST',
+    mode: 'cors',
+    cache: 'no-cache',
+    credentials: 'same-origin',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    redirect: 'follow',
+    referrerPolicy: 'no-referrer',
+    body: JSON.stringify({
+      query: `{
+        tokens {
+          id
+          name
+          symbol
+          totalSupply
+          decimals
+          birth
+          transfers
+        }
+      }`,
+      variables: {}
+    })
+  });
+  return response.json();
+}
+
 async function gqlFetch(tokenAddress) {
-    const response = await fetch('https://api.studio.thegraph.com/query/1649/tokenholders/v1.4', {
+    const response = await fetch(GRAPH_ENDPOINT, {
       method: 'POST',
       mode: 'cors',
       cache: 'no-cache',
@@ -32,7 +63,7 @@ async function gqlFetch(tokenAddress) {
         variables: {"tokenAddress": tokenAddress.toLowerCase()}
       })
     });
-    return response.json(); // parses JSON response into native JavaScript objects
+    return response.json();
 }
 
 function timeSince(time){
@@ -81,3 +112,19 @@ async function fetchData(){
 
     console.log(strength);
 }
+
+window.addEventListener('load', async () => {
+  let tokens = await getTokens();
+  var x = document.getElementById("tokenInput");
+
+
+  for (let index = 0; index < tokens.data.tokens.length; index++) {
+    const token = tokens.data.tokens[index];
+    var option = document.createElement("option");
+    option.text = `$${token.symbol} - ${token.name}`;
+    option.value = token.id;
+    x.add(option);
+
+  }
+
+});
