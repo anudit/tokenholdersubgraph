@@ -1,5 +1,5 @@
 async function gqlFetch(tokenAddress) {
-    const response = await fetch('https://api.studio.thegraph.com/query/1649/tokenholders/v1.3', {
+    const response = await fetch('https://api.studio.thegraph.com/query/1649/tokenholders/v1.4', {
       method: 'POST',
       mode: 'cors',
       cache: 'no-cache',

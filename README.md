@@ -1,7 +1,7 @@
 # tokenholdersubgraph
 A subgraph to index insights into token holders - Mainnet.
 
-Build completed: Qmdps3cCdAhBaqkktZ1Tb9RJ1BorVEqhw6e2R463ZCeNxA
+Build completed: QmW1S11Z2FLaF7BTTksdCoZGYFDkWu573KFeqYjt6RoTSx
 
 Deployed to https://thegraph.com/studio/subgraph/tokenholders
 

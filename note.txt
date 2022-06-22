@@ -35,8 +35,9 @@ console.log(finData.map(e=>{
       apiVersion: 0.0.5
       language: wasm/assemblyscript
       entities:
-        - Holder
+        - User
         - TokenBalance
+        - Token
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
