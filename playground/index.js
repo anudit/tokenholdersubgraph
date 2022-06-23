@@ -90,8 +90,16 @@ function avg(array){
   return sum(array)/array.length;
 }
 
+function openInEtherscan(){
+  let add = document.getElementById('tokenInput').value;
+  window.open(`https://etherscan.io/token/${add}`, target=undefined)
+}
 
-async function fetchData(){
+async function fetchData(e){
+
+  e.innerText = 'Fetching...';
+  e.disabled = true;
+
     let data = document.getElementById('tokenInput');
     let resp = await gqlFetch(data.value);
 
@@ -117,9 +125,14 @@ async function fetchData(){
         strength.push(calculatedStrength);
     }
 
-    document.getElementById('output').innerHTML += `${data.options[data.selectedIndex].innerText} :: Avg Strength: ${avg(strength)} <br/>`;
+    let priceData = await fetch(`https://api.covalenthq.com/v1/pricing/historical_by_addresses_v2/1/USD/${data.value}/?quote-currency=USD&format=JSON&key=ckey_b469893fc4c9418893d32a8720d`).then(r=>r.json());
+
+    document.getElementById('output').innerHTML += `${data.options[data.selectedIndex].innerText} :: Avg Strength: ${avg(strength).toLocaleString()}, Holders: ${resp.data.tokenBalances.length.toLocaleString()}, Price: $${priceData.data[0].items[0].price} <br/>`;
 
     console.log(strength);
+
+    e.innerText = 'Fetch Data';
+    e.disabled = false;
 }
 
 window.addEventListener('load', async () => {
