@@ -17,12 +17,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Alex\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: GIAN
@@ -39,12 +42,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: GIAN\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: DANGER-DANGER
@@ -61,12 +67,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: DANGER-DANGER\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: bREY-bREY
@@ -83,12 +92,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: bREY-bREY\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Abu Alumni Oriole-AAOR
@@ -105,12 +117,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Abu Alumni Oriole-AAOR\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: CRYPTODISCO-DISCO
@@ -127,12 +142,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: CRYPTODISCO-DISCO\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Henkaku-HENKAKU
@@ -149,12 +167,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Henkaku-HENKAKU\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Wiscle-WCL
@@ -171,12 +192,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Wiscle-WCL\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Loop Golf-LOOP
@@ -193,12 +217,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Loop Golf-LOOP\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Immutable Type Token-TYPE
@@ -215,12 +242,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Immutable Type Token-TYPE\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Midsummer Governance Token-REEL
@@ -237,12 +267,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Midsummer Governance Token-REEL\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Citizen DAO Token-CDAO
@@ -259,12 +292,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Citizen DAO Token-CDAO\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: The Experientialists-EXER
@@ -281,12 +317,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: The Experientialists-EXER\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Global Coin Research-GCR
@@ -303,12 +342,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Global Coin Research-GCR\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: The Doge NFT-DOG
@@ -325,12 +367,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: The Doge NFT-DOG\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: TheMachine Network-$TMREP
@@ -347,12 +392,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: TheMachine Network-$TMREP\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Brainsprays-READ
@@ -369,12 +417,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Brainsprays-READ\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Newsroom-NEWS
@@ -391,12 +442,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Newsroom-NEWS\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Eve Wealth-EVEW
@@ -413,12 +467,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Eve Wealth-EVEW\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Sesamers-SESAME
@@ -435,12 +492,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Sesamers-SESAME\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: $GRAMS  -GRAMS
@@ -457,12 +517,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: $GRAMS  -GRAMS\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: NintenDAO-NTDAO
@@ -479,12 +542,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: NintenDAO-NTDAO\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Shiny-SHINY
@@ -501,12 +567,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Shiny-SHINY\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: onlyofone-onecoin
@@ -523,12 +592,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: onlyofone-onecoin\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: BVRLIN-BVRLIN
@@ -545,12 +617,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: BVRLIN-BVRLIN\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: CANDI-CANDI
@@ -567,12 +642,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: CANDI-CANDI\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Lyricist Lounge-BARS
@@ -589,12 +667,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Lyricist Lounge-BARS\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Fortune-Fortune
@@ -611,12 +692,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Fortune-Fortune\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: NFT Zoo-ZOOSY
@@ -633,12 +717,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: NFT Zoo-ZOOSY\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Kenneth Schlenker-Kenneth
@@ -655,12 +742,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Kenneth Schlenker-Kenneth\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Ampled-AMPLED
@@ -677,12 +767,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Ampled-AMPLED\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Pozzle Planet-POZ
@@ -699,12 +792,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Pozzle Planet-POZ\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: JIHAD-JIHAD
@@ -721,12 +817,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: JIHAD-JIHAD\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: General Seminar-SEMINAR
@@ -743,12 +842,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: General Seminar-SEMINAR\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Coinvise-CVIS
@@ -765,12 +867,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Coinvise-CVIS\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: social token-SOCIALTOKEN
@@ -787,12 +892,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: social token-SOCIALTOKEN\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: BlockchainBrett-BRETT
@@ -809,12 +917,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: BlockchainBrett-BRETT\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Influencer-INF
@@ -831,12 +942,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Influencer-INF\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: WTF-WTF
@@ -853,12 +967,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: WTF-WTF\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Metastash-STASH
@@ -875,12 +992,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Metastash-STASH\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: yhf-information
@@ -897,12 +1017,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: yhf-information\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Nut Nation-NUT
@@ -919,12 +1042,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Nut Nation-NUT\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: DICKCOIN-DICK
@@ -941,12 +1067,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: DICKCOIN-DICK\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Panther-PANTHER
@@ -963,12 +1092,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Panther-PANTHER\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Cringe Community-CRINGE
@@ -985,12 +1117,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Cringe Community-CRINGE\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Matt-$Matt
@@ -1007,12 +1142,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Matt-$Matt\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: SinCity-SINS
@@ -1029,12 +1167,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: SinCity-SINS\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Darkpool OH-1-DKPOH-1
@@ -1051,12 +1192,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Darkpool OH-1-DKPOH-1\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: UnknownNFT-UNKNOWN
@@ -1073,12 +1217,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: UnknownNFT-UNKNOWN\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Knowledgeable Professor-KP
@@ -1095,12 +1242,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Knowledgeable Professor-KP\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: HEATDAO-HEAT
@@ -1117,12 +1267,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: HEATDAO-HEAT\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Hello-HELLO
@@ -1139,12 +1292,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Hello-HELLO\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: yooo-YOO
@@ -1161,12 +1317,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: yooo-YOO\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: JUMP-$JUMP
@@ -1183,12 +1342,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: JUMP-$JUMP\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: dAb-dAb
@@ -1205,12 +1367,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: dAb-dAb\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: dAAAb-dAAAb
@@ -1227,12 +1392,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: dAAAb-dAAAb\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Plexus Coin-PLEXUS
@@ -1249,12 +1417,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Plexus Coin-PLEXUS\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: DAOutliers-OUTLIER
@@ -1271,12 +1442,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: DAOutliers-OUTLIER\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Nei Digital Ronda 0-NEIR0
@@ -1293,12 +1467,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Nei Digital Ronda 0-NEIR0\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: RahulCoin-RAHUL
@@ -1315,12 +1492,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: RahulCoin-RAHUL\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Moonwalkers-MOONWALK
@@ -1337,12 +1517,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Moonwalkers-MOONWALK\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Presail-PRESAIL
@@ -1359,12 +1542,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Presail-PRESAIL\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: District Art DAO-DADAO
@@ -1381,12 +1567,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: District Art DAO-DADAO\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: FoodmaskU Community DAO-FUCD
@@ -1403,12 +1592,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: FoodmaskU Community DAO-FUCD\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: NFT Zoo-ZOOBY
@@ -1425,12 +1617,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: NFT Zoo-ZOOBY\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: CH-$CH
@@ -1447,12 +1642,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: CH-$CH\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: The Crowd-CROWD
@@ -1469,12 +1667,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: The Crowd-CROWD\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: YUR DAO-YUR
@@ -1491,12 +1692,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: YUR DAO-YUR\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: NOIZE-NOIZE
@@ -1513,12 +1717,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: NOIZE-NOIZE\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Atif-ATIF
@@ -1535,12 +1742,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Atif-ATIF\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Robin Bechtel-$TEXAS
@@ -1557,12 +1767,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Robin Bechtel-$TEXAS\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: BURNS-BURNING DAO
@@ -1579,12 +1792,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: BURNS-BURNING DAO\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Awesome People-AWE
@@ -1601,12 +1817,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Awesome People-AWE\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: BurningDAO-BURN
@@ -1623,12 +1842,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: BurningDAO-BURN\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Mom-MOM
@@ -1645,12 +1867,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Mom-MOM\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: GENDA-GENDA
@@ -1667,12 +1892,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: GENDA-GENDA\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Tara Digital Collective-TDC
@@ -1689,12 +1917,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Tara Digital Collective-TDC\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Vroom-VROOM
@@ -1711,12 +1942,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Vroom-VROOM\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Nutopia-NU
@@ -1733,12 +1967,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Nutopia-NU\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: SiliCoin-SILC
@@ -1755,12 +1992,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: SiliCoin-SILC\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: 50MM-50MM
@@ -1777,12 +2017,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: 50MM-50MM\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Genesis Project-GenDAO
@@ -1799,12 +2042,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Genesis Project-GenDAO\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Genesis Project DAO-Genesis
@@ -1821,12 +2067,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Genesis Project DAO-Genesis\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: GREATWANGJING-GWJ
@@ -1843,12 +2092,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: GREATWANGJING-GWJ\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Gian Ferrer-GIAN
@@ -1865,12 +2117,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Gian Ferrer-GIAN\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: The New Flex-FLEX
@@ -1887,12 +2142,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: The New Flex-FLEX\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Miguel Piedrafita-MIGUEL
@@ -1909,12 +2167,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Miguel Piedrafita-MIGUEL\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: PROTEIN-PRTN
@@ -1931,12 +2192,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: PROTEIN-PRTN\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Eliot-ELIOT
@@ -1953,12 +2217,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Eliot-ELIOT\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Ren-minion
@@ -1975,12 +2242,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Ren-minion\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Web4-WEB4
@@ -1997,12 +2267,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Web4-WEB4\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Media.Monks-MONK
@@ -2019,12 +2292,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Media.Monks-MONK\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Continuum-UUM
@@ -2041,12 +2317,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Continuum-UUM\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: AkiraDAO-AKIRA
@@ -2063,12 +2342,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: AkiraDAO-AKIRA\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Figment-FIGMENT
@@ -2085,12 +2367,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Figment-FIGMENT\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: MECXXX-MECXXX
@@ -2107,12 +2392,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: MECXXX-MECXXX\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Nate-NATE
@@ -2129,12 +2417,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Nate-NATE\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: The Culture DAO-CULTUR
@@ -2151,12 +2442,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: The Culture DAO-CULTUR\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Happy Hour DAO-Hora
@@ -2173,12 +2467,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Happy Hour DAO-Hora\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Coffee-COFFEE
@@ -2195,12 +2492,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Coffee-COFFEE\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Refraction-REFRACT
@@ -2217,12 +2517,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Refraction-REFRACT\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Verse Lex-VLEX
@@ -2239,12 +2542,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Verse Lex-VLEX\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Verse Lex-VERSE
@@ -2261,12 +2567,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Verse Lex-VERSE\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Zouzoukwa-ZOU
@@ -2283,12 +2592,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Zouzoukwa-ZOU\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Spinworld-SPIN
@@ -2305,12 +2617,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Spinworld-SPIN\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: The Rattle-RATTLE
@@ -2327,12 +2642,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: The Rattle-RATTLE\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Xinxing Family-NEW
@@ -2349,12 +2667,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Xinxing Family-NEW\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Aleph-ALEPH
@@ -2371,12 +2692,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Aleph-ALEPH\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Public Swim-SWIM
@@ -2393,12 +2717,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Public Swim-SWIM\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: animo-ANIMO
@@ -2415,12 +2742,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: animo-ANIMO\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: PfxLoVid-PXLVD
@@ -2437,12 +2767,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: PfxLoVid-PXLVD\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Geneva Test-GTEST
@@ -2459,12 +2792,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Geneva Test-GTEST\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Chee$e-CHEESE
@@ -2481,12 +2817,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Chee$e-CHEESE\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Water & Music-STREAM
@@ -2503,12 +2842,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Water & Music-STREAM\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: LACKHONEY-HONEY
@@ -2525,12 +2867,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: LACKHONEY-HONEY\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: SolaceVR-SVR
@@ -2547,12 +2892,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: SolaceVR-SVR\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Universe Eaters Meditation Society-UEMS
@@ -2569,12 +2917,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Universe Eaters Meditation Society-UEMS\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Jenil Thakker-JENIL
@@ -2591,12 +2942,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Jenil Thakker-JENIL\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Matei-Matei
@@ -2613,12 +2967,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Matei-Matei\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Ohmies-OHMIE
@@ -2635,12 +2992,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Ohmies-OHMIE\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Serif-LGBTQ
@@ -2657,12 +3017,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Serif-LGBTQ\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Nocturne-XNOCT
@@ -2679,12 +3042,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Nocturne-XNOCT\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Prof-PROF
@@ -2701,12 +3067,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Prof-PROF\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: old note token-ONT
@@ -2723,12 +3092,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: old note token-ONT\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: chubbi-chubbi
@@ -2745,12 +3117,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: chubbi-chubbi\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: House of Medici-HOM
@@ -2767,12 +3142,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: House of Medici-HOM\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Garage Hub-garage
@@ -2789,12 +3167,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Garage Hub-garage\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: LiLBoard-LIL
@@ -2811,12 +3192,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: LiLBoard-LIL\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: shiratoken-SSYT
@@ -2833,12 +3217,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: shiratoken-SSYT\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: jokedao-JOKE
@@ -2855,12 +3242,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: jokedao-JOKE\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: mau5verse-CHEESE
@@ -2877,12 +3267,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: mau5verse-CHEESE\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: NEOVANGUARD-NEO
@@ -2899,12 +3292,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: NEOVANGUARD-NEO\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Ecto-ECTO
@@ -2921,12 +3317,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Ecto-ECTO\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: CapGDAO token-CAPG
@@ -2943,12 +3342,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: CapGDAO token-CAPG\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Young Park-YOUNG
@@ -2965,12 +3367,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Young Park-YOUNG\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Ujamma V1-UJATEST
@@ -2987,12 +3392,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Ujamma V1-UJATEST\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Azekwoh-AZK
@@ -3009,12 +3417,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Azekwoh-AZK\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: OnboardDAO-ONBRD
@@ -3031,12 +3442,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: OnboardDAO-ONBRD\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Chad-CHD
@@ -3053,12 +3467,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Chad-CHD\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Creators Guild-CREATOR
@@ -3075,12 +3492,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Creators Guild-CREATOR\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Royal Hedge DAO-ROYAL
@@ -3097,12 +3517,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Royal Hedge DAO-ROYAL\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Mericoin-MRCN
@@ -3119,12 +3542,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Mericoin-MRCN\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: CDROM-CDROM
@@ -3141,12 +3567,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: CDROM-CDROM\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: GVO33-VIBES
@@ -3163,12 +3592,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: GVO33-VIBES\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Rebell-WBB
@@ -3185,12 +3617,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Rebell-WBB\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Sigrid Jin👩-SIGJ👩
@@ -3207,12 +3642,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Sigrid Jin👩-SIGJ👩\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Testingtoken-TSTS
@@ -3229,12 +3667,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Testingtoken-TSTS\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: SuperBenefit DAO-SPRB
@@ -3251,12 +3692,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: SuperBenefit DAO-SPRB\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: We Are Tech DAO-DIGLIT
@@ -3273,12 +3717,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: We Are Tech DAO-DIGLIT\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Social Fresh DAO-SOFRESH
@@ -3295,12 +3742,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Social Fresh DAO-SOFRESH\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: The Stack World-STKWRLD
@@ -3317,12 +3767,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: The Stack World-STKWRLD\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Resist DAO-RESIST
@@ -3339,12 +3792,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Resist DAO-RESIST\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Astra-ASTRA
@@ -3361,12 +3817,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Astra-ASTRA\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Moon Mission-MOON
@@ -3383,12 +3842,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Moon Mission-MOON\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: xBIAL-XBIAL
@@ -3405,12 +3867,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: xBIAL-XBIAL\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Ariza-ARI
@@ -3427,12 +3892,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Ariza-ARI\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Corgee-CRG
@@ -3449,12 +3917,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Corgee-CRG\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Yeahbud-YEAHBUD
@@ -3471,12 +3942,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Yeahbud-YEAHBUD\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Stællar-STLLR
@@ -3493,12 +3967,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Stællar-STLLR\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Time Travel-TIMET
@@ -3515,12 +3992,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Time Travel-TIMET\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: NeuroVerse Collective-NEVSE
@@ -3537,12 +4017,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: NeuroVerse Collective-NEVSE\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: ScribeDAO-SCRIBZ
@@ -3559,12 +4042,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: ScribeDAO-SCRIBZ\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Matt-MATT
@@ -3581,12 +4067,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Matt-MATT\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Falktron-FALKTRO
@@ -3603,12 +4092,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Falktron-FALKTRO\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: The DAO Foundation-DF
@@ -3625,12 +4117,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: The DAO Foundation-DF\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: TS61-TS
@@ -3647,12 +4142,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: TS61-TS\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: UUP-UUP
@@ -3669,12 +4167,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: UUP-UUP\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Cringe -CRINGE
@@ -3691,12 +4192,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Cringe -CRINGE\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: RED i NATION-REDCOIN
@@ -3713,12 +4217,15 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: RED i NATION-REDCOIN\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm
   - kind: ethereum
     name: Letsminetogether DAO-LMD
@@ -3735,32 +4242,13 @@ dataSources:
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: Letsminetogether DAO-LMD\abis\ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
-      file: Alex\Alex.wasm
-  - kind: ethereum
-    name: SAI-SAI
-    network: mainnet
-    source:
-      address: "0xc778417e063141139fce010982780140aa0cd5ab"
-      abi: ERC20Token
-      startBlock: 3754385
-    mapping:
-      kind: ethereum/events
-      apiVersion: 0.0.5
-      language: wasm/assemblyscript
-      entities:
-        - User
-        - TokenBalance
-        - Token
-      abis:
-        - name: ERC20Token
-          file: SAI-SAI\abis\ERC20Token.json
-      eventHandlers:
-        - event: Transfer(indexed address,indexed address,uint256)
-          handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: Alex\Alex.wasm

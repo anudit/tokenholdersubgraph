@@ -248,4 +248,98 @@ export class Token extends Entity {
   set decimals(value: BigInt) {
     this.set("decimals", Value.fromBigInt(value));
   }
+
+  get paused(): boolean {
+    let value = this.get("paused");
+    return value!.toBoolean();
+  }
+
+  set paused(value: boolean) {
+    this.set("paused", Value.fromBoolean(value));
+  }
+
+  get owner(): Bytes {
+    let value = this.get("owner");
+    return value!.toBytes();
+  }
+
+  set owner(value: Bytes) {
+    this.set("owner", Value.fromBytes(value));
+  }
+
+  get roles(): Array<string> | null {
+    let value = this.get("roles");
+    if (!value || value.kind == ValueKind.NULL) {
+      return null;
+    } else {
+      return value.toStringArray();
+    }
+  }
+
+  set roles(value: Array<string> | null) {
+    if (!value) {
+      this.unset("roles");
+    } else {
+      this.set("roles", Value.fromStringArray(<Array<string>>value));
+    }
+  }
+}
+
+export class Role extends Entity {
+  constructor(id: string) {
+    super();
+    this.set("id", Value.fromString(id));
+  }
+
+  save(): void {
+    let id = this.get("id");
+    assert(id != null, "Cannot save Role entity without an ID");
+    if (id) {
+      assert(
+        id.kind == ValueKind.STRING,
+        `Entities of type Role must have an ID of type String but the id '${id.displayData()}' is of type ${id.displayKind()}`
+      );
+      store.set("Role", id.toString(), this);
+    }
+  }
+
+  static load(id: string): Role | null {
+    return changetype<Role | null>(store.get("Role", id));
+  }
+
+  get id(): string {
+    let value = this.get("id");
+    return value!.toString();
+  }
+
+  set id(value: string) {
+    this.set("id", Value.fromString(value));
+  }
+
+  get tokenPointed(): string {
+    let value = this.get("tokenPointed");
+    return value!.toString();
+  }
+
+  set tokenPointed(value: string) {
+    this.set("tokenPointed", Value.fromString(value));
+  }
+
+  get roleType(): Bytes {
+    let value = this.get("roleType");
+    return value!.toBytes();
+  }
+
+  set roleType(value: Bytes) {
+    this.set("roleType", Value.fromBytes(value));
+  }
+
+  get roleHolder(): string {
+    let value = this.get("roleHolder");
+    return value!.toString();
+  }
+
+  set roleHolder(value: string) {
+    this.set("roleHolder", Value.fromString(value));
+  }
 }

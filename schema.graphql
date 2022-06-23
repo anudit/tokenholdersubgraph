@@ -23,4 +23,14 @@ type Token @entity {
   symbol: String!
   totalSupply: BigInt!
   decimals: BigInt!
+  paused: Boolean!
+  owner: Bytes
+  roles: [Role!] @derivedFrom(field: "tokenPointed")
+}
+
+type Role @entity {
+  id: ID! # TxnHash
+  tokenPointed: Token!
+  roleType: Bytes!
+  roleHolder: User!
 }

@@ -1,4 +1,4 @@
-const GRAPH_ENDPOINT = 'https://api.studio.thegraph.com/query/1649/tokenholders/v1.4';
+const GRAPH_ENDPOINT = 'https://api.studio.thegraph.com/query/1649/tokenholders/v1.7';
 
 async function getTokens() {
   const response = await fetch(GRAPH_ENDPOINT, {
@@ -13,7 +13,7 @@ async function getTokens() {
     referrerPolicy: 'no-referrer',
     body: JSON.stringify({
       query: `{
-        tokens (orderBy: birth, orderDirection: asc) {
+        tokens (orderBy: birth, orderDirection: asc, first: 1000) {
           id
           name
           symbol
@@ -85,6 +85,10 @@ function sum(array){
     return s;
 }
 
+function avg(array){
+  return sum(array)/array.length;
+}
+
 
 async function fetchData(){
     let data = document.getElementById('tokenInput');
@@ -95,7 +99,7 @@ async function fetchData(){
     let strength = [];
 
     for (let index = 0; index < resp.data.tokenBalances.length; index++) {
-        let { balance, userPointed, holdingAtleast1Since } = resp.data.tokenBalances[index];
+        let { balance, holdingAtleast1Since } = resp.data.tokenBalances[index];
         let decimals = parseInt(tokenData.decimals);
         let parsedBal = formatBal(balance, decimals);
         // strength[userPointed.id] = {
@@ -108,13 +112,14 @@ async function fetchData(){
         strength.push(((parsedBal)**0.5) * timeSince(parseInt(holdingAtleast1Since)));
     }
 
-    document.getElementById('output').innerHTML += `${data.options[data.selectedIndex].innerText} :: Avg Strength: ${sum(strength)/strength.length} <br/>`;
+    document.getElementById('output').innerHTML += `${data.options[data.selectedIndex].innerText} :: Avg Strength: ${avg(strength)} <br/>`;
 
     console.log(strength);
 }
 
 window.addEventListener('load', async () => {
   let tokens = await getTokens();
+  let tknCnt = document.getElementById('tokenCount').innerText = `${tokens.data.tokens.length} Tokens on Ethereum Mainnet`
   var x = document.getElementById("tokenInput");
 
 

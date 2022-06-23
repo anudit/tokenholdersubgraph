@@ -38,12 +38,15 @@ console.log(finData.map(e=>{
         - User
         - TokenBalance
         - Token
+        - Role
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
       eventHandlers:
         - event: Transfer(indexed address,indexed address,uint256)
           handler: handleTransfer
+        - event: RoleGranted(indexed bytes32,indexed address,indexed address)
+          handler: handleGrantRole
       file: ./src/mapping.ts
     `
 }).join('\n'))

@@ -1,9 +1,10 @@
 import { Address, BigInt } from '@graphprotocol/graph-ts'
 import {
   ERC20Token,
+  RoleGranted,
   Transfer
 } from "../generated/ERC20Token/ERC20Token"
-import { User, Token, TokenBalance } from "../generated/schema"
+import { User, Token, TokenBalance, Role } from "../generated/schema"
 
 const ZERO = BigInt.fromI32(0);
 
@@ -17,18 +18,23 @@ function updateTokenData(address: Address, now: BigInt): void {
 
   let id = address.toHexString();
   let entity = Token.load(id);
+  let tokenContract = ERC20Token.bind(address);
 
   if (!entity){
     entity = new Token(id);
-    let tokenContract = ERC20Token.bind(address);
     entity.name = tokenContract.name();
     entity.symbol = tokenContract.symbol();
     entity.decimals = BigInt.fromI32(tokenContract.decimals());
     entity.totalSupply = tokenContract.totalSupply();
     entity.transfers = BigInt.fromI32(0);
     entity.birth = now;
+    entity.paused = false;
   }
 
+  let isPaused = tokenContract.try_paused();
+  if (!isPaused.reverted){
+    entity.paused = isPaused.value;
+  }
   entity.transfers = entity.transfers.plus(BigInt.fromI32(1));
   entity.save();
 }
@@ -110,4 +116,30 @@ export function handleTransfer(event: Transfer): void {
       event.block.timestamp
     );
   }
+}
+
+export function handleGrantRole(event: RoleGranted): void {
+
+  let roleId = event.transaction.hash.toHexString().concat('-').concat(event.params.account.toHexString());
+  let roleEntity = new Role(roleId);
+  roleEntity.tokenPointed = event.address.toHexString();
+  roleEntity.roleHolder = event.params.account.toHexString();
+  roleEntity.roleType = event.params.role;
+  roleEntity.save();
+
+
+  let tokenEntity = Token.load(event.address.toHexString());
+  if (tokenEntity != null){
+    let newRoles: string[] = [];
+    let currentRoles = tokenEntity.roles;
+    if (currentRoles === null){
+      newRoles.push(roleId);
+    }
+    else {
+      newRoles = newRoles.concat(currentRoles);
+      newRoles.push(roleId);
+    }
+    tokenEntity.roles = newRoles;
+  }
+
 }
