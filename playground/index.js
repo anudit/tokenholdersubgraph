@@ -21,6 +21,7 @@ async function getTokens() {
           decimals
           birth
           transfers
+          paused
         }
       }`,
       variables: {}
@@ -57,7 +58,7 @@ async function gqlFetch(tokenAddress) {
               totalSupply
               decimals
               birth
-              transfers
+              paused
             }
           }`,
         variables: {"tokenAddress": tokenAddress.toLowerCase()}
@@ -109,7 +110,11 @@ async function fetchData(){
         //     strength: ((parsedBal)**0.5) * timeSince(parseInt(holdingAtleast1Since))
         // }
 
-        strength.push(((parsedBal)**0.5) * timeSince(parseInt(holdingAtleast1Since)));
+        let calculatedStrength = ((parsedBal)**0.5) * timeSince(parseInt(holdingAtleast1Since));
+        if(tokenData.paused === true){
+          calculatedStrength = calculatedStrength*0;
+        }
+        strength.push(calculatedStrength);
     }
 
     document.getElementById('output').innerHTML += `${data.options[data.selectedIndex].innerText} :: Avg Strength: ${avg(strength)} <br/>`;
@@ -119,14 +124,14 @@ async function fetchData(){
 
 window.addEventListener('load', async () => {
   let tokens = await getTokens();
-  let tknCnt = document.getElementById('tokenCount').innerText = `${tokens.data.tokens.length} Tokens on Ethereum Mainnet`
+  document.getElementById('tokenCount').innerText = `${tokens.data.tokens.length} Tokens on Ethereum Mainnet`
   var x = document.getElementById("tokenInput");
 
 
   for (let index = 0; index < tokens.data.tokens.length; index++) {
     const token = tokens.data.tokens[index];
     var option = document.createElement("option");
-    option.text = `$${token.symbol} - ${token.name}`;
+    option.text = `${token.symbol} - ${token.name}`;
     option.value = token.id;
     x.add(option);
 
