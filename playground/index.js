@@ -111,6 +111,7 @@ async function fetchData(e){
         let { balance, holdingAtleast1Since } = resp.data.tokenBalances[index];
         let decimals = parseInt(tokenData.decimals);
         let parsedBal = formatBal(balance, decimals);
+        let parsedTotalSupply = formatBal(tokenData.totalSupply, decimals);
         // strength[userPointed.id] = {
         //     bal: parsedBal,
         //     sqrtBal: parsedBal**0.5,
@@ -118,7 +119,7 @@ async function fetchData(e){
         //     strength: ((parsedBal)**0.5) * timeSince(parseInt(holdingAtleast1Since))
         // }
 
-        let calculatedStrength = ((parsedBal)**0.5) * timeSince(parseInt(holdingAtleast1Since));
+        let calculatedStrength = (parsedBal/parsedTotalSupply*100) * timeSince(parseInt(holdingAtleast1Since));
         if(tokenData.paused === true){
           calculatedStrength = calculatedStrength*0;
         }
