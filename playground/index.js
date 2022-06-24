@@ -109,8 +109,8 @@ function avg(array){
 
 function openInEtherscan(){
   let add = document.getElementById('tokenInput').value;
-  if (active_network === 'matic') window.open(`https://etherscan.io/token/${add}`, target=undefined)
-  if (active_network === 'etherum') window.open(`https://polygonscan.com/token/${add}`, target=undefined)
+  if (active_network === 'etherum') window.open(`https://etherscan.io/token/${add}`, target=undefined)
+  if (active_network === 'matic') window.open(`https://polygonscan.com/token/${add}`, target=undefined)
 }
 
 async function updateNetwork(){
