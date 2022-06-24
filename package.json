@@ -6,13 +6,18 @@
     "build": "graph build",
     "auth": "graph auth",
     "play": "live-server ./playground/ --port=80",
-    "deploy": "graph deploy --studio tokenholders",
+    "deploy:mainnet": "pnpm prepare:mainnet && graph deploy --studio tokenholders",
+    "deploy:matic": "pnpm prepare:matic && graph deploy --node https://api.thegraph.com/deploy/ anudit/tokenholders",
+    "prepare:mainnet": "cp ./config/subgraph.mainnet.yaml subgraph.yaml",
+    "prepare:matic": "cp ./config/subgraph.matic.yaml subgraph.yaml",
     "create-local": "graph create --node http://localhost:8020/ anudit/tokenholders",
     "remove-local": "graph remove --node http://localhost:8020/ anudit/tokenholders",
     "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 anudit/tokenholders"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "^0.31.0",
-    "@graphprotocol/graph-ts": "0.27.0"
+    "@graphprotocol/graph-ts": "0.27.0",
+    "cross-fetch": "^3.1.5",
+    "mustache": "^4.2.0"
   }
 }

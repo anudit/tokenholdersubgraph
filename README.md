@@ -1,12 +1,23 @@
 # tokenholdersubgraph
 A subgraph to index insights into token holders - Mainnet.
 
+
+## Ethereum
 Build completed: QmXw42i51xSZFgX5imKsZjPgeqoPEAe6cphACeHuDuL661
 
 Deployed to https://thegraph.com/studio/subgraph/tokenholders
 
 Subgraph endpoints:
 Queries (HTTP):     https://api.studio.thegraph.com/query/1649/tokenholders/v1
+
+## Matic
+
+Build completed: QmfBWTkr9TfuEJS4yTcvBR1cnKP4fbervjvjZm3JR1vkHp
+
+Deployed to https://thegraph.com/explorer/subgraph/anudit/tokenholders
+
+Subgraph endpoints:
+Queries (HTTP):     https://api.thegraph.com/subgraphs/name/anudit/tokenholders
 
 ### Examples
 
@@ -49,7 +60,7 @@ Get All Token Holders
 Get All Tokens
 ```gql
 {
-  tokens {
+  tokens (orderBy: birth, orderDirection: asc, first: 1000) {
     id
     name
     symbol

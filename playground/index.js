@@ -1,7 +1,10 @@
 const GRAPH_ENDPOINT = 'https://api.studio.thegraph.com/query/1649/tokenholders/v1.7';
+const GRAPH_ENPOINT_MATIC = 'https://api.thegraph.com/subgraphs/id/QmfBWTkr9TfuEJS4yTcvBR1cnKP4fbervjvjZm3JR1vkHp';
+let active_enpoint = GRAPH_ENDPOINT;
+let active_network = 'ethereum';
 
 async function getTokens() {
-  const response = await fetch(GRAPH_ENDPOINT, {
+  const response = await fetch(active_enpoint, {
     method: 'POST',
     mode: 'cors',
     cache: 'no-cache',
@@ -27,11 +30,25 @@ async function getTokens() {
       variables: {}
     })
   });
-  return response.json();
+
+  let tokens = await response.json();
+
+  document.getElementById('tokenCount').innerText = `${tokens.data.tokens.length} Tokens on ${active_network}`
+  var x = document.getElementById("tokenInput");
+  x.innerHTML = '';
+
+  for (let index = 0; index < tokens.data.tokens.length; index++) {
+    const token = tokens.data.tokens[index];
+    var option = document.createElement("option");
+    option.text = `${token.symbol} - ${token.name}`;
+    option.value = token.id;
+    x.add(option);
+
+  }
 }
 
 async function gqlFetch(tokenAddress) {
-    const response = await fetch(GRAPH_ENDPOINT, {
+    const response = await fetch(active_enpoint, {
       method: 'POST',
       mode: 'cors',
       cache: 'no-cache',
@@ -92,7 +109,20 @@ function avg(array){
 
 function openInEtherscan(){
   let add = document.getElementById('tokenInput').value;
-  window.open(`https://etherscan.io/token/${add}`, target=undefined)
+  if (active_network === 'matic') window.open(`https://etherscan.io/token/${add}`, target=undefined)
+  if (active_network === 'etherum') window.open(`https://polygonscan.com/token/${add}`, target=undefined)
+}
+
+async function updateNetwork(){
+  active_network = document.getElementById('networkInput').value;
+  if (active_network === 'ethereum') {
+    active_enpoint = GRAPH_ENDPOINT;
+  }
+  else if (active_network === 'matic') {
+    active_enpoint = GRAPH_ENPOINT_MATIC;
+  }
+  await getTokens();
+
 }
 
 async function fetchData(e){
@@ -138,17 +168,6 @@ async function fetchData(e){
 
 window.addEventListener('load', async () => {
   let tokens = await getTokens();
-  document.getElementById('tokenCount').innerText = `${tokens.data.tokens.length} Tokens on Ethereum Mainnet`
-  var x = document.getElementById("tokenInput");
 
-
-  for (let index = 0; index < tokens.data.tokens.length; index++) {
-    const token = tokens.data.tokens[index];
-    var option = document.createElement("option");
-    option.text = `${token.symbol} - ${token.name}`;
-    option.value = token.id;
-    x.add(option);
-
-  }
 
 });
