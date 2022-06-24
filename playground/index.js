@@ -60,7 +60,7 @@ async function gqlFetch(tokenAddress) {
       referrerPolicy: 'no-referrer',
       body: JSON.stringify({
         query: `query GetData($tokenAddress: String){
-            tokenBalances (where: {tokenPointed: $tokenAddress, balance_gt: 0}, orderBy: balance, orderDirection: desc, first: 1000) {
+            tokenBalances (where: {tokenPointed: $tokenAddress, balance_gt: 0}, orderBy: balance, orderDirection: desc, first: 5000) {
               userPointed{
                 id
               }
