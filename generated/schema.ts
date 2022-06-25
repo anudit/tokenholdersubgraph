@@ -75,6 +75,40 @@ export class User extends Entity {
       this.set("balanceSnapshots", Value.fromStringArray(<Array<string>>value));
     }
   }
+
+  get roles(): Array<string> | null {
+    let value = this.get("roles");
+    if (!value || value.kind == ValueKind.NULL) {
+      return null;
+    } else {
+      return value.toStringArray();
+    }
+  }
+
+  set roles(value: Array<string> | null) {
+    if (!value) {
+      this.unset("roles");
+    } else {
+      this.set("roles", Value.fromStringArray(<Array<string>>value));
+    }
+  }
+
+  get ownerOfTokens(): Array<string> | null {
+    let value = this.get("ownerOfTokens");
+    if (!value || value.kind == ValueKind.NULL) {
+      return null;
+    } else {
+      return value.toStringArray();
+    }
+  }
+
+  set ownerOfTokens(value: Array<string> | null) {
+    if (!value) {
+      this.unset("ownerOfTokens");
+    } else {
+      this.set("ownerOfTokens", Value.fromStringArray(<Array<string>>value));
+    }
+  }
 }
 
 export class TokenBalance extends Entity {
@@ -275,20 +309,20 @@ export class Token extends Entity {
     this.set("paused", Value.fromBoolean(value));
   }
 
-  get owner(): Bytes | null {
+  get owner(): string | null {
     let value = this.get("owner");
     if (!value || value.kind == ValueKind.NULL) {
       return null;
     } else {
-      return value.toBytes();
+      return value.toString();
     }
   }
 
-  set owner(value: Bytes | null) {
+  set owner(value: string | null) {
     if (!value) {
       this.unset("owner");
     } else {
-      this.set("owner", Value.fromBytes(<Bytes>value));
+      this.set("owner", Value.fromString(<string>value));
     }
   }
 

@@ -35,6 +35,12 @@ function updateTokenData(address: Address, now: BigInt): void {
   if (!isPaused.reverted){
     entity.paused = isPaused.value;
   }
+
+  let owner = tokenContract.try_owner();
+  if (!owner.reverted){
+    entity.owner = owner.value.toHexString();
+  }
+
   entity.transfers = entity.transfers.plus(BigInt.fromI32(1));
   entity.save();
 }

@@ -2,6 +2,8 @@ type User @entity {
   id: ID! # User Address
   balances: [TokenBalance!] @derivedFrom(field: "userPointed")
   balanceSnapshots: [TokenBalanceSnapshot!] @derivedFrom(field: "userPointed")
+  roles: [Role!] @derivedFrom(field: "roleHolder")
+  ownerOfTokens: [Token!] @derivedFrom(field: "owner")
 }
 
 type TokenBalance @entity {
@@ -25,7 +27,7 @@ type Token @entity {
   totalSupply: BigInt!
   decimals: BigInt!
   paused: Boolean!
-  owner: Bytes
+  owner: User
   roles: [Role!] @derivedFrom(field: "tokenPointed")
 }
 

@@ -3,7 +3,7 @@ schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum
-    name: Stephen Song-SONG
+    name: ERC20Token
     network: matic
     source:
       address: "0x4B6cbaBE4271ec0ef792Fee5d6aC82ec2E3acE73"

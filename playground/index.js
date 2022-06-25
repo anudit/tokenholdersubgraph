@@ -1,5 +1,5 @@
-const GRAPH_ENDPOINT = 'https://api.studio.thegraph.com/query/1649/tokenholders/v1.10';
-const GRAPH_ENPOINT_MATIC = 'https://api.thegraph.com/subgraphs/id/QmaTtY55T294UbhNPHaevvGhsNcR5EjajG8dwgCWdbwqAL';
+const GRAPH_ENDPOINT = 'https://api.studio.thegraph.com/query/1649/tokenholders/v1.11';
+const GRAPH_ENPOINT_MATIC = 'https://api.thegraph.com/subgraphs/id/QmYbC6BuuBtWmAbQEDVpxqCvNoLFsbnzSzg4bkvAiP5ZsM';
 let active_enpoint = GRAPH_ENDPOINT;
 let active_network = 'ethereum';
 
