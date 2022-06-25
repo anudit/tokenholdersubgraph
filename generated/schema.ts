@@ -378,6 +378,15 @@ export class TokenBalanceSnapshot extends Entity {
   set timestamp(value: BigInt) {
     this.set("timestamp", Value.fromBigInt(value));
   }
+
+  get txnHash(): string {
+    let value = this.get("txnHash");
+    return value!.toString();
+  }
+
+  set txnHash(value: string) {
+    this.set("txnHash", Value.fromString(value));
+  }
 }
 
 export class Role extends Entity {

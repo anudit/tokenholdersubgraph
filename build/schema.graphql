@@ -35,6 +35,7 @@ type TokenBalanceSnapshot @entity {
   tokenPointed: Token!
   balance: BigInt!
   timestamp: BigInt!
+  txnHash: String!
 }
 
 type Role @entity {

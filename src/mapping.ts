@@ -1,4 +1,4 @@
-import { Address, BigInt } from '@graphprotocol/graph-ts'
+import { Address, BigInt, Bytes } from '@graphprotocol/graph-ts'
 import {
   ERC20Token,
   RoleGranted,
@@ -39,7 +39,7 @@ function updateTokenData(address: Address, now: BigInt): void {
   entity.save();
 }
 
-function updateUserBalance(tokenAddress: Address, userAddress: Address, amount: BigInt, increase: bool, now: BigInt): void {
+function updateUserBalance(tokenAddress: Address, userAddress: Address, amount: BigInt, increase: bool, now: BigInt, txnhash: Bytes): void {
 
   let id = userAddress.toHexString().concat('-').concat(tokenAddress.toHexString());
   let entity = TokenBalance.load(id);
@@ -63,7 +63,7 @@ function updateUserBalance(tokenAddress: Address, userAddress: Address, amount: 
   let newBalAmount = increase == true ? entity.balance.plus(amount) : entity.balance.minus(amount);
 
   entity.balance = newBalAmount;
-  snapshotCurrentBalance(userAddress, tokenAddress, newBalAmount, now);
+  snapshotCurrentBalance(userAddress, tokenAddress, newBalAmount, now, txnhash);
 
   if (compareGe(newBalAmount, decimals, BigInt.fromI32(1)) && entity.holdingAtleast1Since === ZERO) entity.holdingAtleast1Since = now;
 
@@ -105,7 +105,8 @@ export function handleTransfer(event: Transfer): void {
       event.params.to,
       event.params.value,
       true,
-      event.block.timestamp
+      event.block.timestamp,
+      event.transaction.hash
     );
   }
 
@@ -115,7 +116,8 @@ export function handleTransfer(event: Transfer): void {
       event.params.from,
       event.params.value,
       false,
-      event.block.timestamp
+      event.block.timestamp,
+      event.transaction.hash
     );
   }
 }
@@ -132,7 +134,7 @@ export function handleGrantRole(event: RoleGranted): void {
 }
 
 
-function snapshotCurrentBalance(user: Address, token: Address, balance: BigInt, timestamp: BigInt): void {
+function snapshotCurrentBalance(user: Address, token: Address, balance: BigInt, timestamp: BigInt, txnHash: Bytes): void {
 
   let snapId = token.toHexString().concat('-').concat(user.toHexString()).concat('-').concat(timestamp.toString());
   let snapEntity = new TokenBalanceSnapshot(snapId);
@@ -141,6 +143,7 @@ function snapshotCurrentBalance(user: Address, token: Address, balance: BigInt, 
   snapEntity.tokenPointed = token.toHexString();
   snapEntity.balance = balance;
   snapEntity.timestamp = timestamp;
+  snapEntity.txnHash = txnHash.toHexString();
 
   snapEntity.save();
 

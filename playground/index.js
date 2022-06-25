@@ -1,5 +1,5 @@
-const GRAPH_ENDPOINT = 'https://api.studio.thegraph.com/query/1649/tokenholders/v1.9';
-const GRAPH_ENPOINT_MATIC = 'https://api.thegraph.com/subgraphs/id/QmSXUTtBqBfCGk7urwq4LRBnEGxEV5VsougCmmxFwLx434';
+const GRAPH_ENDPOINT = 'https://api.studio.thegraph.com/query/1649/tokenholders/v1.10';
+const GRAPH_ENPOINT_MATIC = 'https://api.thegraph.com/subgraphs/id/QmaTtY55T294UbhNPHaevvGhsNcR5EjajG8dwgCWdbwqAL';
 let active_enpoint = GRAPH_ENDPOINT;
 let active_network = 'ethereum';
 
@@ -208,6 +208,8 @@ async function updatePlot(){
   let {data: {tokenBalanceSnapshots: historyData}} = await getHistoryData(tokenAddress, userAddress);
 
   if (historyData.length > 0){
+
+    document.getElementById('userBalanceHistoryPlot').innerHTML = '';
 
     var data = [
       {
