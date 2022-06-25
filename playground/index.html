@@ -38,7 +38,18 @@
     </div>
 
 
+    <div>
+      <br/>
+      <h3>Historical Balance Lookup</h3>
+      <input type="text" id="balanceHistoryUserInput" placeholder="Ethereum Address"/>
+      <button onclick="updatePlot()">Lookup</button>
+      <div id="userBalanceHistoryPlot"></div>
+    </div>
+
+
   <script src="index.js"></script>
+  <script src="plotly-2.12.1.min.js"></script>
+  <script src="ethers-5.6.9.umd.min.js"></script>
 </body>
 
 </html>

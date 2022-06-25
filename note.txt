@@ -41,6 +41,7 @@ console.log(mainnetAdds.map(e=>{
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json

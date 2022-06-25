@@ -1,5 +1,5 @@
-const GRAPH_ENDPOINT = 'https://api.studio.thegraph.com/query/1649/tokenholders/v1.7';
-const GRAPH_ENPOINT_MATIC = 'https://api.thegraph.com/subgraphs/id/QmfBWTkr9TfuEJS4yTcvBR1cnKP4fbervjvjZm3JR1vkHp';
+const GRAPH_ENDPOINT = 'https://api.studio.thegraph.com/query/1649/tokenholders/v1.8';
+const GRAPH_ENPOINT_MATIC = 'https://api.thegraph.com/subgraphs/id/QmSXUTtBqBfCGk7urwq4LRBnEGxEV5VsougCmmxFwLx434';
 let active_enpoint = GRAPH_ENDPOINT;
 let active_network = 'ethereum';
 
@@ -84,6 +84,39 @@ async function gqlFetch(tokenAddress) {
     return response.json();
 }
 
+
+async function getHistoryData(tokenAddress, userAddress) {
+  const response = await fetch(active_enpoint, {
+    method: 'POST',
+    mode: 'cors',
+    cache: 'no-cache',
+    credentials: 'same-origin',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    redirect: 'follow',
+    referrerPolicy: 'no-referrer',
+    body: JSON.stringify({
+      query: `query GetData($tokenAddress: String, $userAddress: String){
+        tokenBalanceSnapshots(where: {tokenPointed: $tokenAddress, userPointed: $userAddress}, orderBy: timestamp, orderDirection: asc, first: 1000) {
+          userPointed {
+            id
+          }
+          balance
+          timestamp
+          tokenPointed {
+            name
+            decimals
+          }
+        }
+      }
+      `,
+      variables: {"tokenAddress": tokenAddress.toLowerCase(), "userAddress": userAddress.toLowerCase()}
+    })
+  });
+  return response.json();
+}
+
 function timeSince(time){
     let now = Date.now()
     var delta = Math.abs((time*1000) - now) / 1000;
@@ -166,8 +199,38 @@ async function fetchData(e){
     e.disabled = false;
 }
 
+
+async function updatePlot(){
+
+  let tokenAddress = document.getElementById('tokenInput').value;
+  let userAddress = document.getElementById('balanceHistoryUserInput').value;
+
+  let {data: {tokenBalanceSnapshots: historyData}} = await getHistoryData(tokenAddress, userAddress);
+
+  if (historyData.length > 0){
+
+    var data = [
+      {
+        x: historyData.map(e=>{
+          return new Date(parseInt(e.timestamp)*1000).toISOString();
+        }),
+        y: historyData.map(e=>{
+          let pbal = ethers.BigNumber.from(e.balance);
+          return parseFloat(pbal.div(ethers.BigNumber.from('10').pow(e.tokenPointed.decimals)).toString());
+        }),
+        type: 'scatter'
+      }
+    ];
+
+    Plotly.newPlot('userBalanceHistoryPlot', data);
+
+  }
+  else {
+    document.getElementById('userBalanceHistoryPlot').innerHTML = 'No history';
+  }
+
+}
+
 window.addEventListener('load', async () => {
   let tokens = await getTokens();
-
-
 });

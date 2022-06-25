@@ -4,7 +4,7 @@ import {
   RoleGranted,
   Transfer
 } from "../generated/ERC20Token/ERC20Token"
-import { User, Token, TokenBalance, Role } from "../generated/schema"
+import { User, Token, TokenBalance, Role, TokenBalanceSnapshot } from "../generated/schema"
 
 const ZERO = BigInt.fromI32(0);
 
@@ -56,11 +56,14 @@ function updateUserBalance(tokenAddress: Address, userAddress: Address, amount: 
     entity.holdingAtleast100Since = ZERO;
     entity.holdingAtleast1000Since = ZERO;
     entity.holdingAtleast10000Since = ZERO;
+
   }
+
 
   let newBalAmount = increase == true ? entity.balance.plus(amount) : entity.balance.minus(amount);
 
   entity.balance = newBalAmount;
+  snapshotCurrentBalance(userAddress, tokenAddress, newBalAmount, now);
 
   if (compareGe(newBalAmount, decimals, BigInt.fromI32(1)) && entity.holdingAtleast1Since === ZERO) entity.holdingAtleast1Since = now;
 
@@ -93,9 +96,8 @@ export function handleTransfer(event: Transfer): void {
 
   if (!entity){
     entity = new User(event.params.to.toHexString());
+    entity.save();
   }
-
-  entity.save();
 
   if(event.params.to != Address.zero()){
     updateUserBalance(
@@ -140,6 +142,41 @@ export function handleGrantRole(event: RoleGranted): void {
       newRoles.push(roleId);
     }
     tokenEntity.roles = newRoles;
+
+    tokenEntity.save();
   }
+
+}
+
+
+function snapshotCurrentBalance(user: Address, token: Address, balance: BigInt, timestamp: BigInt): void {
+
+  let snapId = token.toHexString().concat('-').concat(user.toHexString()).concat('-').concat(timestamp.toString());
+  let snapEntity = new TokenBalanceSnapshot(snapId);
+
+  snapEntity.userPointed = user.toHexString();
+  snapEntity.tokenPointed = token.toHexString();
+  snapEntity.balance = balance;
+  snapEntity.timestamp = timestamp;
+
+  snapEntity.save();
+
+  // let userEntity = User.load(user.toHexString());
+
+  // if(userEntity!= null){
+
+  //   let newBalanceSnapshots: string[] = []
+  //   let currentBalanceSnapshots = userEntity.balanceSnapshots;
+  //   if (currentBalanceSnapshots == null){
+  //     newBalanceSnapshots.push(snapId);
+  //   }
+  //   else{
+  //     newBalanceSnapshots.concat(currentBalanceSnapshots);
+  //     newBalanceSnapshots.push(snapId);
+  //   }
+  //   userEntity.balanceSnapshots = newBalanceSnapshots;
+
+  //   userEntity.save();
+  // }
 
 }

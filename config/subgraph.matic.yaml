@@ -18,6 +18,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -45,6 +46,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -72,6 +74,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -99,6 +102,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -126,6 +130,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -153,6 +158,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -180,6 +186,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -207,6 +214,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -234,6 +242,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -261,6 +270,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -288,6 +298,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -315,6 +326,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -342,6 +354,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -369,6 +382,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -396,6 +410,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -423,6 +438,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -450,6 +466,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -477,6 +494,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -504,6 +522,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -531,6 +550,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -558,6 +578,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -585,6 +606,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -612,6 +634,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -639,6 +662,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -666,6 +690,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -693,6 +718,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -720,6 +746,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -747,6 +774,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -774,6 +802,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -801,6 +830,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -828,6 +858,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -855,6 +886,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -882,6 +914,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -909,6 +942,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -936,6 +970,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -963,6 +998,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -990,6 +1026,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1017,6 +1054,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1044,6 +1082,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1071,6 +1110,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1098,6 +1138,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1125,6 +1166,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1152,6 +1194,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1179,6 +1222,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1206,6 +1250,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1233,6 +1278,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1260,6 +1306,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1287,6 +1334,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1314,6 +1362,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1341,6 +1390,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1368,6 +1418,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1395,6 +1446,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1422,6 +1474,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1449,6 +1502,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1476,6 +1530,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1503,6 +1558,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1530,6 +1586,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1557,6 +1614,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1584,6 +1642,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1611,6 +1670,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1638,6 +1698,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1665,6 +1726,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1692,6 +1754,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1719,6 +1782,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1746,6 +1810,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1773,6 +1838,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1800,6 +1866,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1827,6 +1894,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1854,6 +1922,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1881,6 +1950,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1908,6 +1978,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1935,6 +2006,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1962,6 +2034,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -1989,6 +2062,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2016,6 +2090,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2043,6 +2118,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2070,6 +2146,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2097,6 +2174,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2124,6 +2202,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2151,6 +2230,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2178,6 +2258,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2205,6 +2286,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2232,6 +2314,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2259,6 +2342,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2286,6 +2370,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2313,6 +2398,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2340,6 +2426,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2367,6 +2454,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2394,6 +2482,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2421,6 +2510,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2448,6 +2538,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2475,6 +2566,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2502,6 +2594,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2529,6 +2622,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2556,6 +2650,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2583,6 +2678,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2610,6 +2706,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2637,6 +2734,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2664,6 +2762,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2691,6 +2790,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2718,6 +2818,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2745,6 +2846,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2772,6 +2874,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2799,6 +2902,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2826,6 +2930,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2853,6 +2958,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2880,6 +2986,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2907,6 +3014,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2934,6 +3042,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2961,6 +3070,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -2988,6 +3098,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3015,6 +3126,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3042,6 +3154,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3069,6 +3182,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3096,6 +3210,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3123,6 +3238,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3150,6 +3266,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3177,6 +3294,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3204,6 +3322,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3231,6 +3350,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3258,6 +3378,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3285,6 +3406,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3312,6 +3434,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3339,6 +3462,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3366,6 +3490,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3393,6 +3518,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3420,6 +3546,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3447,6 +3574,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3474,6 +3602,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3501,6 +3630,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3528,6 +3658,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3555,6 +3686,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3582,6 +3714,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3609,6 +3742,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3636,6 +3770,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3663,6 +3798,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3690,6 +3826,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3717,6 +3854,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3744,6 +3882,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3771,6 +3910,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3798,6 +3938,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3825,6 +3966,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3852,6 +3994,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3879,6 +4022,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3906,6 +4050,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3933,6 +4078,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3960,6 +4106,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -3987,6 +4134,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4014,6 +4162,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4041,6 +4190,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4068,6 +4218,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4095,6 +4246,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4122,6 +4274,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4149,6 +4302,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4176,6 +4330,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4203,6 +4358,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4230,6 +4386,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4257,6 +4414,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4284,6 +4442,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4311,6 +4470,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4338,6 +4498,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4365,6 +4526,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4392,6 +4554,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4419,6 +4582,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4446,6 +4610,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4473,6 +4638,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4500,6 +4666,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4527,6 +4694,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4554,6 +4722,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4581,6 +4750,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4608,6 +4778,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4635,6 +4806,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4662,6 +4834,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4689,6 +4862,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4716,6 +4890,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4743,6 +4918,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4770,6 +4946,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4797,6 +4974,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4824,6 +5002,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4851,6 +5030,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4878,6 +5058,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4905,6 +5086,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4932,6 +5114,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4959,6 +5142,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -4986,6 +5170,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5013,6 +5198,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5040,6 +5226,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5067,6 +5254,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5094,6 +5282,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5121,6 +5310,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5148,6 +5338,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5175,6 +5366,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5202,6 +5394,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5229,6 +5422,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5256,6 +5450,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5283,6 +5478,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5310,6 +5506,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5337,6 +5534,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5364,6 +5562,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5391,6 +5590,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5418,6 +5618,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5445,6 +5646,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5472,6 +5674,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5499,6 +5702,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5526,6 +5730,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5553,6 +5758,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5580,6 +5786,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5607,6 +5814,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5634,6 +5842,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5661,6 +5870,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5688,6 +5898,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5715,6 +5926,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5742,6 +5954,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5769,6 +5982,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5796,6 +6010,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5823,6 +6038,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5850,6 +6066,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5877,6 +6094,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5904,6 +6122,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5931,6 +6150,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5958,6 +6178,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -5985,6 +6206,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6012,6 +6234,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6039,6 +6262,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6066,6 +6290,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6093,6 +6318,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6120,6 +6346,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6147,6 +6374,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6174,6 +6402,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6201,6 +6430,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6228,6 +6458,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6255,6 +6486,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6282,6 +6514,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6309,6 +6542,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6336,6 +6570,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6363,6 +6598,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6390,6 +6626,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6417,6 +6654,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6444,6 +6682,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6471,6 +6710,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6498,6 +6738,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6525,6 +6766,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6552,6 +6794,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6579,6 +6822,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6606,6 +6850,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6633,6 +6878,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6660,6 +6906,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6687,6 +6934,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6714,6 +6962,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6741,6 +6990,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6768,6 +7018,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6795,6 +7046,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6822,6 +7074,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6849,6 +7102,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6876,6 +7130,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6903,6 +7158,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6930,6 +7186,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6957,6 +7214,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -6984,6 +7242,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7011,6 +7270,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7038,6 +7298,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7065,6 +7326,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7092,6 +7354,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7119,6 +7382,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7146,6 +7410,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7173,6 +7438,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7200,6 +7466,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7227,6 +7494,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7254,6 +7522,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7281,6 +7550,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7308,6 +7578,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7335,6 +7606,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7362,6 +7634,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7389,6 +7662,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7416,6 +7690,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7443,6 +7718,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7470,6 +7746,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7497,6 +7774,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7524,6 +7802,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7551,6 +7830,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7578,6 +7858,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7605,6 +7886,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7632,6 +7914,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7659,6 +7942,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7686,6 +7970,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7713,6 +7998,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7740,6 +8026,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7767,6 +8054,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7794,6 +8082,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7821,6 +8110,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7848,6 +8138,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7875,6 +8166,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7902,6 +8194,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7929,6 +8222,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7956,6 +8250,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -7983,6 +8278,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8010,6 +8306,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8037,6 +8334,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8064,6 +8362,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8091,6 +8390,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8118,6 +8418,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8145,6 +8446,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8172,6 +8474,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8199,6 +8502,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8226,6 +8530,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8253,6 +8558,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8280,6 +8586,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8307,6 +8614,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8334,6 +8642,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8361,6 +8670,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8388,6 +8698,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8415,6 +8726,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8442,6 +8754,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8469,6 +8782,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8496,6 +8810,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8523,6 +8838,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8550,6 +8866,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8577,6 +8894,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8604,6 +8922,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8631,6 +8950,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8658,6 +8978,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8685,6 +9006,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8712,6 +9034,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8739,6 +9062,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8766,6 +9090,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8793,6 +9118,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8820,6 +9146,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8847,6 +9174,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8874,6 +9202,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8901,6 +9230,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8928,6 +9258,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8955,6 +9286,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -8982,6 +9314,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9009,6 +9342,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9036,6 +9370,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9063,6 +9398,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9090,6 +9426,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9117,6 +9454,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9144,6 +9482,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9171,6 +9510,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9198,6 +9538,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9225,6 +9566,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9252,6 +9594,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9279,6 +9622,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9306,6 +9650,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9333,6 +9678,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9360,6 +9706,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9387,6 +9734,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9414,6 +9762,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9441,6 +9790,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9468,6 +9818,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9495,6 +9846,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9522,6 +9874,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9549,6 +9902,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9576,6 +9930,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9603,6 +9958,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9630,6 +9986,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9657,6 +10014,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9684,6 +10042,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9711,6 +10070,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9738,6 +10098,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9765,6 +10126,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9792,6 +10154,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9819,6 +10182,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9846,6 +10210,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9873,6 +10238,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9900,6 +10266,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9927,6 +10294,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9954,6 +10322,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -9981,6 +10350,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10008,6 +10378,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10035,6 +10406,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10062,6 +10434,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10089,6 +10462,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10116,6 +10490,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10143,6 +10518,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10170,6 +10546,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10197,6 +10574,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10224,6 +10602,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10251,6 +10630,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10278,6 +10658,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10305,6 +10686,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10332,6 +10714,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10359,6 +10742,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10386,6 +10770,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10413,6 +10798,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10440,6 +10826,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10467,6 +10854,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10494,6 +10882,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10521,6 +10910,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10548,6 +10938,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10575,6 +10966,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10602,6 +10994,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10629,6 +11022,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10656,6 +11050,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10683,6 +11078,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10710,6 +11106,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10737,6 +11134,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10764,6 +11162,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10791,6 +11190,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10818,6 +11218,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10845,6 +11246,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10872,6 +11274,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10899,6 +11302,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10926,6 +11330,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10953,6 +11358,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -10980,6 +11386,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11007,6 +11414,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11034,6 +11442,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11061,6 +11470,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11088,6 +11498,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11115,6 +11526,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11142,6 +11554,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11169,6 +11582,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11196,6 +11610,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11223,6 +11638,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11250,6 +11666,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11277,6 +11694,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11304,6 +11722,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11331,6 +11750,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11358,6 +11778,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11385,6 +11806,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11412,6 +11834,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11439,6 +11862,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11466,6 +11890,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11493,6 +11918,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11520,6 +11946,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11547,6 +11974,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11574,6 +12002,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11601,6 +12030,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11628,6 +12058,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11655,6 +12086,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11682,6 +12114,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11709,6 +12142,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11736,6 +12170,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11763,6 +12198,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11790,6 +12226,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11817,6 +12254,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11844,6 +12282,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11871,6 +12310,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11898,6 +12338,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11925,6 +12366,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11952,6 +12394,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -11979,6 +12422,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12006,6 +12450,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12033,6 +12478,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12060,6 +12506,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12087,6 +12534,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12114,6 +12562,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12141,6 +12590,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12168,6 +12618,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12195,6 +12646,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12222,6 +12674,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12249,6 +12702,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12276,6 +12730,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12303,6 +12758,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12330,6 +12786,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12357,6 +12814,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12384,6 +12842,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12411,6 +12870,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12438,6 +12898,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12465,6 +12926,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12492,6 +12954,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12519,6 +12982,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12546,6 +13010,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12573,6 +13038,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12600,6 +13066,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12627,6 +13094,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12654,6 +13122,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12681,6 +13150,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12708,6 +13178,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12735,6 +13206,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12762,6 +13234,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12789,6 +13262,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12816,6 +13290,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12843,6 +13318,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12870,6 +13346,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12897,6 +13374,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12924,6 +13402,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12951,6 +13430,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -12978,6 +13458,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13005,6 +13486,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13032,6 +13514,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13059,6 +13542,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13086,6 +13570,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13113,6 +13598,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13140,6 +13626,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13167,6 +13654,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13194,6 +13682,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13221,6 +13710,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13248,6 +13738,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13275,6 +13766,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13302,6 +13794,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13329,6 +13822,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13356,6 +13850,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13383,6 +13878,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13410,6 +13906,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13437,6 +13934,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13464,6 +13962,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13491,6 +13990,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13518,6 +14018,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13545,6 +14046,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13572,6 +14074,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13599,6 +14102,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13626,6 +14130,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13653,6 +14158,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13680,6 +14186,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13707,6 +14214,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13734,6 +14242,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13761,6 +14270,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13788,6 +14298,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13815,6 +14326,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13842,6 +14354,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13869,6 +14382,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13896,6 +14410,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13923,6 +14438,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13950,6 +14466,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -13977,6 +14494,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14004,6 +14522,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14031,6 +14550,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14058,6 +14578,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14085,6 +14606,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14112,6 +14634,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14139,6 +14662,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14166,6 +14690,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14193,6 +14718,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14220,6 +14746,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14247,6 +14774,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14274,6 +14802,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14301,6 +14830,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14328,6 +14858,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14355,6 +14886,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14382,6 +14914,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14409,6 +14942,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14436,6 +14970,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14463,6 +14998,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14490,6 +15026,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14517,6 +15054,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14544,6 +15082,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14571,6 +15110,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14598,6 +15138,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14625,6 +15166,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14652,6 +15194,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14679,6 +15222,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14706,6 +15250,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14733,6 +15278,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14760,6 +15306,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14787,6 +15334,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14814,6 +15362,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14841,6 +15390,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14868,6 +15418,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14895,6 +15446,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14922,6 +15474,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14949,6 +15502,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -14976,6 +15530,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15003,6 +15558,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15030,6 +15586,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15057,6 +15614,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15084,6 +15642,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15111,6 +15670,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15138,6 +15698,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15165,6 +15726,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15192,6 +15754,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15219,6 +15782,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15246,6 +15810,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15273,6 +15838,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15300,6 +15866,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15327,6 +15894,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15354,6 +15922,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15381,6 +15950,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15408,6 +15978,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15435,6 +16006,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15462,6 +16034,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15489,6 +16062,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15516,6 +16090,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15543,6 +16118,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15570,6 +16146,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
@@ -15597,6 +16174,7 @@ dataSources:
         - TokenBalance
         - Token
         - Role
+        - TokenBalanceSnapshot
       abis:
         - name: ERC20Token
           file: ./abis/ERC20Token.json
