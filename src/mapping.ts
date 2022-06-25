@@ -129,23 +129,6 @@ export function handleGrantRole(event: RoleGranted): void {
   roleEntity.roleType = event.params.role;
   roleEntity.save();
 
-
-  let tokenEntity = Token.load(event.address.toHexString());
-  if (tokenEntity != null){
-    let newRoles: string[] = [];
-    let currentRoles = tokenEntity.roles;
-    if (currentRoles === null){
-      newRoles.push(roleId);
-    }
-    else {
-      newRoles = newRoles.concat(currentRoles);
-      newRoles.push(roleId);
-    }
-    tokenEntity.roles = newRoles;
-
-    tokenEntity.save();
-  }
-
 }
 
 
@@ -160,23 +143,5 @@ function snapshotCurrentBalance(user: Address, token: Address, balance: BigInt, 
   snapEntity.timestamp = timestamp;
 
   snapEntity.save();
-
-  // let userEntity = User.load(user.toHexString());
-
-  // if(userEntity!= null){
-
-  //   let newBalanceSnapshots: string[] = []
-  //   let currentBalanceSnapshots = userEntity.balanceSnapshots;
-  //   if (currentBalanceSnapshots == null){
-  //     newBalanceSnapshots.push(snapId);
-  //   }
-  //   else{
-  //     newBalanceSnapshots.concat(currentBalanceSnapshots);
-  //     newBalanceSnapshots.push(snapId);
-  //   }
-  //   userEntity.balanceSnapshots = newBalanceSnapshots;
-
-  //   userEntity.save();
-  // }
 
 }

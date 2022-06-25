@@ -1,4 +1,4 @@
-const GRAPH_ENDPOINT = 'https://api.studio.thegraph.com/query/1649/tokenholders/v1.8';
+const GRAPH_ENDPOINT = 'https://api.studio.thegraph.com/query/1649/tokenholders/v1.9';
 const GRAPH_ENPOINT_MATIC = 'https://api.thegraph.com/subgraphs/id/QmSXUTtBqBfCGk7urwq4LRBnEGxEV5VsougCmmxFwLx434';
 let active_enpoint = GRAPH_ENDPOINT;
 let active_network = 'ethereum';
@@ -142,8 +142,8 @@ function avg(array){
 
 function openInEtherscan(){
   let add = document.getElementById('tokenInput').value;
-  if (active_network === 'etherum') window.open(`https://etherscan.io/token/${add}`, target=undefined)
-  if (active_network === 'matic') window.open(`https://polygonscan.com/token/${add}`, target=undefined)
+  if (active_network === 'ethereum') window.open(`https://etherscan.io/token/${add}`, target='_blank')
+  if (active_network === 'matic') window.open(`https://polygonscan.com/token/${add}`, target='_blank')
 }
 
 async function updateNetwork(){

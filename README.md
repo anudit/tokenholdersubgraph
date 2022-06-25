@@ -3,7 +3,7 @@ A subgraph to index insights into token holders - Mainnet.
 
 
 ## Ethereum
-Build completed: QmeSjDLPLkNh1aKnfLJgcPzQ2A2dfBBpNYeR3SF1QwjLY4
+Build completed: QmaicQ6MV6RYC5j7whxz5KSZ2Y7JjRbEeBzmHNfiSQrLv8
 
 Deployed to https://thegraph.com/studio/subgraph/tokenholders
 
@@ -11,7 +11,7 @@ Subgraph endpoints:
 Queries (HTTP):     https://api.studio.thegraph.com/query/1649/tokenholders/v1.8
 
 ## Matic
-Build completed: QmSXUTtBqBfCGk7urwq4LRBnEGxEV5VsougCmmxFwLx434
+Build completed: QmYceLur9re1bDJ1F4XCQkaUhEVGcuT4ebBkpUqspCZiY2
 
 Deployed to https://thegraph.com/explorer/subgraph/anudit/tokenholders
 
